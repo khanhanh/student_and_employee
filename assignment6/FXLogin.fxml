@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="256.0" layoutY="14.0" text="Login">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="200.0" layoutY="89.0" prefHeight="51.0" prefWidth="200.0" promptText="UserName">
+         <font>
+            <Font size="24.0" />
+         </font></TextArea>
+      <Button layoutX="219.0" layoutY="259.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="163.0" text="Login">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <PasswordField layoutX="200.0" layoutY="168.0" prefHeight="53.0" prefWidth="200.0" promptText="Password">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </PasswordField>
+      <Hyperlink layoutX="261.0" layoutY="334.0" prefHeight="35.0" prefWidth="79.0" text="Register">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</Pane>
